@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(menu.css);
+@import url(otras.css);
+@import url(fontello.css);
+
+body {
+	background-color: #B0C4DE;
+}
+
+#base {
+	margin-bottom: 20px;
+	margin-left: 68px;
+	margin-top: 70px;
+	display: flex;
+ 	flex-wrap: wrap;
+	justify-content: center;
+	font-family: 'Pattaya', sans-serif;
+	font-size: 45px;
+	text-shadow: 8px 0 0 #000, 4px 0 0 #000, 0 4px 0 #000, 0 2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	color:  #F5F5F5;
+}
+
+#base .contenedor {
+	margin-left: 2px;
+	margin-right: 12px;	
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.izquierda{
+	margin: auto;
+}
+
+.izquierda  img {
+	margin-bottom: 40px;
+	margin-right: 22px;
+	width: 280px;
+	height: 280px;
+	float: left;
+	border-radius: 50%;
+	border: 6px solid  #708090;
+}
+
+#base h3 {
+	margin-top: 75px; 
+	margin-bottom: 22px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	text-shadow: none;
+
+}
+
+#base p {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-shadow: none;}
+
+footer .contenedor {
+	font-family: 'ABeeZee', sans-serif;
+	margin-top: 40px;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	padding-bottom: 25px;
+ }
